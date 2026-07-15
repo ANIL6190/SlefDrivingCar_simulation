@@ -1,0 +1,43 @@
+# Unity folders/files
+/[L|l]ibrary/
+/[T|t]emp/
+/[O|o]bj/
+/[B|b]uild/
+/[B|b]uilds/
+/[L|l]ogs/
+/[U|u]serSettings/
+/[M|m]emoryCaptures/
+
+# Visual Studio / MonoDevelop / Rider generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.class
+*.pdb
+*.opendb
+*.db_journal
+sysinfo.txt
+.vs/
+.vsconfig
+
+# General OS files
+.DS_Store
+Thumbs.db
+
+# Python & ML-Agents Python environments
+mlagents-env310/
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/

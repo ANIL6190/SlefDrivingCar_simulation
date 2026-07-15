@@ -1,0 +1,25 @@
+behaviors:
+  CarDrivingBehavior:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 128        # Smaller batch size for faster parameter updates
+      buffer_size: 1024      # Half the buffer size: updates the brain twice as often
+      learning_rate: 8.0e-4  # Higher learning rate for rapid weight adaptation
+      beta: 1.0e-2
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 7           # Extra training epochs per update to maximize sample reuse
+      learning_rate_schedule: linear
+      beta_schedule: constant
+      epsilon_schedule: linear
+    network_settings:
+      normalize: true
+      hidden_units: 128
+      num_layers: 2
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+    max_steps: 2000000
+    time_horizon: 32         # Reduced time horizon for faster updates
+    summary_freq: 2000       # Higher frequency logs to observe learning updates sooner

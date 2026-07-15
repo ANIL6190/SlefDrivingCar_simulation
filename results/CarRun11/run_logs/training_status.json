@@ -1,0 +1,65 @@
+{
+    "CarDrivingBehavior": {
+        "checkpoints": [
+            {
+                "steps": 50554,
+                "file_path": "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-50554.onnx",
+                "reward": null,
+                "creation_time": 1783666813.8020055,
+                "auxillary_file_paths": [
+                    "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-50554.pt"
+                ]
+            },
+            {
+                "steps": 61318,
+                "file_path": "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-61318.onnx",
+                "reward": -2.3786996006965637,
+                "creation_time": 1783667127.079363,
+                "auxillary_file_paths": [
+                    "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-61318.pt"
+                ]
+            },
+            {
+                "steps": 84102,
+                "file_path": "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-84102.onnx",
+                "reward": 4.89639305183664,
+                "creation_time": 1783668698.0784464,
+                "auxillary_file_paths": [
+                    "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-84102.pt"
+                ]
+            },
+            {
+                "steps": 86728,
+                "file_path": "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-86728.onnx",
+                "reward": 7.530442634597421,
+                "creation_time": 1783675445.832754,
+                "auxillary_file_paths": [
+                    "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-86728.pt"
+                ]
+            },
+            {
+                "steps": 101281,
+                "file_path": "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-101281.onnx",
+                "reward": null,
+                "creation_time": 1783675733.3570993,
+                "auxillary_file_paths": [
+                    "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-101281.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 101281,
+            "file_path": "results\\CarRun11\\CarDrivingBehavior.onnx",
+            "reward": null,
+            "creation_time": 1783675733.3570993,
+            "auxillary_file_paths": [
+                "results\\CarRun11\\CarDrivingBehavior\\CarDrivingBehavior-101281.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "1.13.1+cpu"
+    }
+}
