@@ -2,6 +2,18 @@
 
 An autonomous vehicle simulation in Unity trained using Reinforcement Learning via the Unity ML-Agents toolkit. The agent is trained to navigate a complex track, avoid obstacles using edge sensors, and continuously optimize driving speed and steering accuracy.
 
+---
+
+## 🚗 Autonomous Car Simulation Preview
+
+<div align="center">
+  <video src="AutonomousCar.mp4" controls="controls" muted="muted" width="100%" style="max-width: 100%;">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+---
+
 ## Project Structure
 
 The project code is organized inside the standard Unity structure under `Assets/Scripts/`:
