@@ -7,9 +7,7 @@ An autonomous vehicle simulation in Unity trained using Reinforcement Learning v
 ## 🚗 Autonomous Car Simulation Preview
 
 <div align="center">
-  <video src="AutonomousCar.mp4" controls="controls" muted="muted" width="100%" style="max-width: 100%;">
-    Your browser does not support the video tag.
-  </video>
+  <img src="AutonomousCar.gif" width="100%" alt="Autonomous Car Simulation Preview" />
 </div>
 
 ---
